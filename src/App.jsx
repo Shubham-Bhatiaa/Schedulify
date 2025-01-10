@@ -131,7 +131,7 @@ const App = () => {
         <div className="flex-grow">
           <header className="flex flex-col sm:flex-row justify-between items-center mb-6">
             <h1 className="text-3xl font-bold text-gray-800 mb-4 sm:mb-0">
-              Event Calendar
+              Schedulify📅
             </h1>
             <div className="flex items-center gap-4">
               <button
