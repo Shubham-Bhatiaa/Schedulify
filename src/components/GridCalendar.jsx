@@ -1,6 +1,6 @@
 import React from "react";
 
-const CalendarGrid = ({ year, month, onDayClick, events, selectedDate }) => {
+const GridCalendar = ({ year, month, onDayClick, events, selectedDate }) => {
   const daysInMonth = new Date(year, month + 1, 0).getDate();
   const firstDayOfMonth = new Date(year, month, 1).getDay();
 
@@ -86,4 +86,4 @@ const CalendarGrid = ({ year, month, onDayClick, events, selectedDate }) => {
   );
 };
 
-export default CalendarGrid;
+export default GridCalendar;

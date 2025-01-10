@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import CalendarGrid from "./components/calendarGrid";
+import GridCalendar from "./components/GridCalendar";
 import EventModal from "./components/EventModal";
 import EventList from "./components/EventList";
 
@@ -152,7 +152,7 @@ const App = () => {
             </div>
           </header>
 
-          <CalendarGrid
+          <GridCalendar
             year={currentMonth.year}
             month={currentMonth.month}
             onDayClick={handleDayClick}
